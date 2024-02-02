@@ -1,0 +1,21 @@
+.bio {
+  display: flex;
+}
+.bio > img {
+  width: 30%;
+  margin-right: 60px;
+  animation: appear 2s 0s linear alternate;
+  animation-fill-mode: forwards;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description a {
+  font-size: 40px;
+  color: #53b0e4;
+}
