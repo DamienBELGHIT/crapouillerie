@@ -1,6 +1,7 @@
 .bio {
   display: flex;
 }
+
 .bio > img {
   width: 30%;
   margin-right: 60px;

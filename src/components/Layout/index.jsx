@@ -10,49 +10,49 @@ function Layout() {
   return (
     <div>
       <header>
-        <Link to="/">
-          <div className="logo">
+        <div className="logo">
+          <Link to="/">
             <img src={logo} alt="Logo" />
             <img src={logoTxt} alt="LogoText" />
-          </div>
-        </Link>
+          </Link>
+        </div>
         <nav>
           <ul>
             <li className={location.pathname === "/" ? "selected" : undefined}>
-              <Link to="/">Accueil</Link>
+              <Link to="/">🏠 Accueil</Link>
             </li>
             <li
               className={
                 location.pathname === "/valeurs" ? "selected" : undefined
               }
             >
-              <Link to="/valeurs">Nos Valeurs</Link>
+              <Link to="/valeurs">⚖️Nos Valeurs</Link>
             </li>
             <li
               className={
                 location.pathname === "/equipe" ? "selected" : undefined
               }
             >
-              <Link to="/equipe">L&apos;équipe</Link>
+              <Link to="/equipe">👥L&apos;équipe</Link>
             </li>
             <li
               className={location.pathname === "/lieu" ? "selected" : undefined}
             >
-              <Link to="/lieu">Le Lieu</Link>
+              <Link to="/lieu">🗺️Le Lieu</Link>
             </li>
             <li
               className={
                 location.pathname === "/activites" ? "selected" : undefined
               }
             >
-              <Link to="/activites">Nos Activités</Link>
+              <Link to="/activites">🤸🏼Nos Activités</Link>
             </li>
             <li
               className={
                 location.pathname === "/reservations" ? "selected" : undefined
               }
             >
-              <Link to="/reservations">Réservations</Link>
+              <Link to="/reservations">📋Réservations</Link>
             </li>
           </ul>
         </nav>

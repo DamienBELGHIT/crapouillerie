@@ -27,7 +27,7 @@ function Home() {
             </p>
             <Slideshow images={logo} />
             <Link to="/activites" className="redirect">
-              Voir nos activités ➡
+              🤸🏼Voir nos activités ➡
             </Link>
           </div>
         </div>
@@ -46,9 +46,11 @@ function Home() {
               <p>
                 Depuis <b>2021</b>, nous accueillons tous les étés à la Grande
                 Noé des séjours de vacances pour des jeunes de <b>6 à 17 ans</b>
-                . Ces séjours sont organisés par l’association
-                <a href="https://www.labidouillerie.fr/"> La Bidouillerie</a>,
-                basée à Rennes, qui propose depuis 2013 des colos centrées sur
+                . Ces séjours sont organisés par l’association{" "}
+                <a href="https://www.labidouillerie.fr/">
+                  <nobr>La Bidouillerie</nobr>
+                </a>
+                , basée à Rennes, qui propose depuis 2013 des colos centrées sur
                 la participation des jeunes.
                 <br />
                 <br />
@@ -112,7 +114,7 @@ function Home() {
                 c’est par ici :
               </p>
               <Link to="/activites" className="redirect">
-                Voir nos activités ➡
+                🤸🏼Voir nos activités ➡
               </Link>
             </div>
           </article>
@@ -137,7 +139,7 @@ function Home() {
                 <p>Pour en savoir plus sur nos valeurs c’est par ici :</p>
               </div>
               <Link to="/valeurs" className="redirect">
-                Voir nos valeurs ➡
+                ⚖️Voir nos valeurs ➡
               </Link>
             </div>
             <img src={imgDescValeurs} alt="kids" />
