@@ -1,13 +1,10 @@
 import "./index.css"
+import WaterlillyTitle from "../../components/WaterlillyTitle"
 
 function Activites() {
   return (
     <div id="main-section">
-      <div>
-        <h1>
-          Nos Activités
-        </h1>
-      </div>
+      <WaterlillyTitle title="Nos Activites" />
     </div>
   )
 }

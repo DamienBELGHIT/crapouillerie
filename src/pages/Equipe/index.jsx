@@ -1,11 +1,10 @@
 import "./index.css"
+import WaterlillyTitle from "../../components/WaterlillyTitle"
 
 function Equipe() {
   return (
     <div id="main-section">
-      <div>
-        <h1>L’équipe</h1>
-      </div>
+      <WaterlillyTitle title="L'equipe" />
       <div>
         <p>
           Les crapouilles : choisir une manière de présenter chaque personne de

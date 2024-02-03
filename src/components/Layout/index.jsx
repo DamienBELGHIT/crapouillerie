@@ -62,7 +62,7 @@ function Layout() {
 
       <footer>
         <img src={logo} alt="Logo" />
-        <span>email : lacrapouillerie@gmail.com</span>
+        <span>✉ lacrapouillerie@gmail.com</span>
       </footer>
     </div>
   )

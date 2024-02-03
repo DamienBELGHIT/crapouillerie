@@ -19,7 +19,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: heyhoo;
 }
 
@@ -29,6 +30,7 @@ h2 {
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 a {

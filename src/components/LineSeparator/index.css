@@ -1,0 +1,31 @@
+.line-separator {
+  width: 90%;
+  margin: 50px auto;
+  background-color: #e52953;
+  display: flex;
+}
+
+.line-separator div {
+  width: 20%;
+  height: 4px;
+}
+
+.line-separator div:nth-child(2) {
+  background-color: #f48f41;
+}
+
+.line-separator div:nth-child(3) {
+  background-color: #e7ea69;
+}
+
+.line-separator div:nth-child(4) {
+  background-color: #70dda6;
+}
+
+.line-separator div:nth-child(5) {
+  background-color: #49b8d4;
+}
+
+.line-separator div:nth-child(6) {
+  background-color: #cc89d6;
+}

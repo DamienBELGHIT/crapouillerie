@@ -1,11 +1,10 @@
 import "./index.css"
+import WaterlillyTitle from "../../components/WaterlillyTitle"
 
 function Valeurs() {
   return (
     <div id="main-section">
-      <div>
-        <h1>L&apos;association</h1>
-      </div>
+      <WaterlillyTitle title="Nos Valeurs" />
       <div>
         <p>
           1 - L’autonomie et l’autogestion pourquoi c’est important de se

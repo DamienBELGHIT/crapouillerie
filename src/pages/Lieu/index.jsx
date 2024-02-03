@@ -1,12 +1,11 @@
 import "./index.css"
+import WaterlillyTitle from "../../components/WaterlillyTitle"
 
 function Lieu() {
   return (
     <div id="main-section">
-      <div>
-        <h1>Le lieu</h1>
-      </div>
-      <div>
+      <WaterlillyTitle title="Le Lieu" />
+      <p>
         La Grande Noé est un joli terrain de 2,5 hectares bordé de chênes
         centenaires. Il se situe à Treillières (44119), au nord de Nantes. Le
         collectif y pose les pieds pour la première fois en 2021, à cette époque
@@ -31,7 +30,7 @@ function Lieu() {
         construction. Celui est réalisé en plusieurs phases : les premières à
         l’hiver avec des ami-es maçon-nes tandis que celles d’après se feront au
         printemps, avec des enfants ! photos
-      </div>
+      </p>
     </div>
   )
 }

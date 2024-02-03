@@ -11,7 +11,6 @@ header {
 }
 
 header .logo {
-  width: 145px;
   display: flex;
   align-items: center;
 }
@@ -22,6 +21,7 @@ header .logo {
 
 .logo img {
   height: 40px;
+  object-fit: contain;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav a:hover {
 }
 
 nav ul li {
-  padding: 25px 30px;
+  padding: 25px 20px;
 }
 
 nav ul li:nth-child(1) {
