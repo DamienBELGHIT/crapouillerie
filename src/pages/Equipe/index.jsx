@@ -1,22 +1,48 @@
 import "./index.css"
 import WaterlillyTitle from "../../components/WaterlillyTitle"
+import imgDreo from "../../assets/img/pictures/Hangar4.jpg"
+import imgFlo from "../../assets/img/pictures/Flo.jpg"
+import LineSeparator from "../../components/LineSeparator"
 
 function Equipe() {
   return (
     <div id="main-section">
-      <WaterlillyTitle title="L'equipe" />
+      <WaterlillyTitle title="Les Crapouilles" />
       <div>
-        <p>
-          Les crapouilles : choisir une manière de présenter chaque personne de
-          manière 2synthétique : trois choses que tu aimes et ce que tu préfères
-          faire à la grande noé Dreo On m’appelle Dreo, j’aime les marionnettes,
-          le tissu aérien et le bricolage. Mes moments préférés à la Grande Noé
-          c’est quand on fait des chantiers entre personnes très différentes,
-          qui apprennent les unes des autres. Flo Moi c’est Flo, j’aime les
-          livres, les jeux de cache en forêt et le sport. A la Grande Noé ce que
-          je préfère ce sont les longues soirées d’été autour d’une grande
-          tablée, lors d’une colo ou d’un chantier ! Gwen Julia Maeli Nino
-        </p>
+        <article className="crapouille">
+          <div>
+            <h3>Dreo</h3>
+            <p>
+              On m’appelle Dreo, j’aime les <b>marionnettes</b>, le{" "}
+              <b>tissu aérien</b> et le
+              <b> bricolage</b>.
+              <br />
+              Mes moments préférés à la Grande Noé c’est quand on fait des{" "}
+              <b>chantiers</b> entre personnes très différentes, qui apprennent
+              les unes des autres.
+            </p>
+          </div>
+          <img src={imgDreo} alt="work" />
+        </article>
+
+        <LineSeparator />
+
+        <article className="crapouille">
+          <img src={imgFlo} alt="work" />
+          <div>
+            <h3>Flo</h3>
+            <p>
+              Moi c’est Flo, j’aime les <b>livres</b>, les <b>jeux de cache</b>{" "}
+              en forêt et le
+              <b> sport</b>. A la Grande Noé ce que je préfère ce sont les
+              longues
+              <b> soirées d’été</b> autour d’une grande tablée, lors d’une colo
+              ou d’un chantier !
+            </p>
+          </div>
+        </article>
+
+        <LineSeparator />
       </div>
     </div>
   )
