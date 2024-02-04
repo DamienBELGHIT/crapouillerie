@@ -20,29 +20,35 @@
 .redirect {
   font-size: 40px;
   color: #53b0e4;
+  margin: 40px 0;
 }
 
-article {
+.gallery {
   display: flex;
-  font-size: 22px;
-  margin: 30px 0;
+  justify-content: space-around;
+  opacity: 0;
+  animation: appear 0.8s 0.2s linear alternate;
+  animation-fill-mode: forwards;
+  width: 100%;
 }
 
-article h3 {
-  text-align: center;
-  font-size: 32px;
-}
-
-article > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 5%;
-}
-
-article img {
+.gallery img {
+  aspect-ratio: 1/1;
+  max-width: 30%;
+  max-height: 300px;
   object-fit: cover;
-  max-width: 40%;
+  background: linear-gradient(
+    -45deg,
+    #e52953,
+    #f48f41,
+    #e7ea69,
+    #70dda6,
+    #49b8d4,
+    #cc89d6,
+    #e52953
+  );
+  border-radius: 10px;
+  padding: 6px;
 }
 
 #home-start img {

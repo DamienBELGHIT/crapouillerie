@@ -1,8 +1,10 @@
 import "./index.css"
 import { Link } from "react-router-dom"
 import logo from "../../assets/img/logo.png"
-import Slideshow from "../../components/Slideshow"
 import WaterlillyTitle from "../../components/WaterlillyTitle"
+import imgHome1 from "../../assets/img/pictures/Kids.jpg"
+import imgHome2 from "../../assets/img/pictures/Cabane.jpg"
+import imgHome3 from "../../assets/img/pictures/Dome.jpg"
 import imgDescStart from "../../assets/img/pictures/Activity.jpg"
 import imgDescActivites from "../../assets/img/pictures/Kids4.jpg"
 import imgDescValeurs from "../../assets/img/pictures/Kids2.jpg"
@@ -25,10 +27,14 @@ function Home() {
               autres événements en accord avec nos valeurs, à{" "}
               <b>la Grande Noé</b>, Treillières 44119.
             </p>
-            <Slideshow images={logo} />
             <Link to="/activites" className="redirect">
               🤸🏼Voir nos activités ➡
             </Link>
+            <div className="gallery">
+              <img src={imgHome1} alt="Gallery" />
+              <img src={imgHome2} alt="Gallery" />
+              <img src={imgHome3} alt="Gallery" />
+            </div>
           </div>
         </div>
       </div>

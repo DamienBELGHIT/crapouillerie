@@ -9,11 +9,13 @@ import Activites from "./pages/Activites"
 import Lieu from "./pages/Lieu"
 import Reservations from "./pages/Reservations"
 import Layout from "./components/Layout"
+import ScrollToTop from "./components/ScrollToTop"
 import "./index.css"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
