@@ -21,6 +21,7 @@ function Valeurs() {
               <b>implication dans les processus de subsistance</b> (se nourrir,
               se loger, se vêtir…) que dans ceux de <b>décision collective</b>.
               <br />
+              <br />
               Pour y contribuer nous proposons des{" "}
               <b>expériences de vie collective </b>
               qui donnent à chacun.e la sensation que sa <b>parole</b> a de la
@@ -49,11 +50,13 @@ function Valeurs() {
               <b>systèmes fonctionnels d’entraide</b> où chacun-e s’implique
               selon ses moyens et reçoit selon ses besoins.
               <br />
+              <br />
               Cette réussite n’est jamais acquise dans le sens où elle est en
               perpétuelle mouvement, elle nécessite de la <b>coopération</b> et
               une prise en considération des{" "}
               <b>besoins matériels, psychologiques et émotionnels</b> de chaque
               personne du groupe tout en assurant ceux du collectif.
+              <br />
               <br />
               Apprendre à vivre et faire ensemble, c’est aussi être attentif-ves
               aux <b>dynamiques de groupe</b> et vigilant-es sur les{" "}
@@ -76,6 +79,7 @@ function Valeurs() {
               <b>taux d’encadrement important</b> (1 adulte pour 4 enfants) pour
               les accompagner au mieux et pouvoir individualiser cet
               accompagnement au besoin.
+              <br />
               <br />
               Nous leur proposons également différents
               <b> projets collectifs ambitieux</b> mais réalisables (construire
@@ -104,12 +108,14 @@ function Valeurs() {
               humains de leur environnement, ont{" "}
               <b>fragilisé nos relations de proximité</b> ainsi que nos liens
               avec <b>la faune et la flore</b> qui nous entourent.
+              <br />
               <br />A la Crapouillerie, nous souhaitons{" "}
               <b>réaffirmer l’importance </b>
               de ces liens et les faire vivre à notre échelle. Pour cela, nous
               développons notre <b>ancrage territorial</b> en coopérant avec des
               maraîcher-es du coin, des artisan-nes, des associations (Nous qui
               Poussent, A4), des institutions publiques.
+              <br />
               <br />
               Nous nous attachons également à <b> préserver le bocage</b> sur
               lequel est implanté notre lieu d’animation.{" "}
@@ -118,6 +124,7 @@ function Valeurs() {
               d’hygiène naturels, revalorisation des matériaux de
               construction..) est pensée pour produire l’
               <b>impact le plus faible</b> sur notre sol, air et eau.
+              <br />
               <br />
               L’aménagement du terrain est également pensé pour une réelle
               <b> cohabitation</b> entre humains et autres animaux, en laissant
@@ -141,6 +148,7 @@ function Valeurs() {
               ateliers…). Pour ce faire, la gestion de l’association,
               l’organisation des événements et la construction des structures
               d’accueil repose uniquement sur de l’engagement <b>bénévole</b>.
+              <br />
               <br />
               Interculturalité, Mixité sociale, intergénérationalité PMR Lien
               contre les oppressions (sexistes, spécistes, LGBTQ+ phobes,
