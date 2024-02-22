@@ -1,3 +1,9 @@
+#lieu-start img {
+  width: 100%;
+  max-height: 300px;
+  border: #49b8d4 10px solid;
+}
+
 #lieu-2021 img {
   width: 20%;
   border: #f48f41 10px solid;
@@ -16,4 +22,16 @@
 #lieu-2024 img {
   border: #e52953 10px solid;
   height: 400px;
+}
+
+.notif {
+  border: #e52953 5px solid;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.notif img {
+  max-height: 80px;
+  margin: 30px;
 }

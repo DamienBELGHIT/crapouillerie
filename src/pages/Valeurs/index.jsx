@@ -26,7 +26,7 @@ function Valeurs() {
               <b>expériences de vie collective </b>
               qui donnent à chacun.e la sensation que sa <b>parole</b> a de la
               valeur, qu’iels peuvent réellement <b>agir dans le groupe</b>.
-              Nous expérimentons différentes manières de
+              Nous expérimentons différentes manières de{" "}
               <b>
                 créer des règles de vie collective, gérer les conflits inhérents
                 à la vie de groupe, choisir les activités et leur mise en oeuvre
@@ -147,7 +147,7 @@ function Valeurs() {
               la construction d’une société plus{" "}
               <b>juste, tolérante et solidaire</b>. Pour ce faire il nous semble
               important que chacun.e prenne conscience de ses propres{" "}
-              <b>privilèges</b>
+              <b>privilèges </b>
               et de ceux des autres et des <b>discriminations</b> de notre
               société afin de pouvoir lutter contre les enjeux de pouvoir et les
               oppressions.

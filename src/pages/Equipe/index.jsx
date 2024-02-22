@@ -1,11 +1,12 @@
 import "./index.css"
 import WaterlillyTitle from "../../components/WaterlillyTitle"
-import imgTeam1 from "../../assets/img/pictures/dreo_hangar.jpg"
+import imgDrey from "../../assets/img/pictures/dreo_hangar.jpg"
+import imgFlo from "../../assets/img/pictures/Flo.jpg"
+import imgNino from "../../assets/img/pictures/chantier_tole_nino.jpg"
+import imgTeam1 from "../../assets/img/pictures/shovel_fight.jpg"
 import imgTeam2 from "../../assets/img/pictures/grande_prairie_marie_sourit.jpg"
-import imgTeam3 from "../../assets/img/pictures/techno_rateau.jpg"
+import imgTeam3 from "../../assets/img/pictures/couverture_cuisine.jpeg"
 import imgTeam4 from "../../assets/img/pictures/chantier_brouette.jpg"
-import imgTeam5 from "../../assets/img/pictures/couverture_cuisine.jpeg"
-import imgTeam6 from "../../assets/img/pictures/shovel_fight.jpg"
 import LineSeparator from "../../components/LineSeparator"
 
 function Equipe() {
@@ -57,13 +58,13 @@ function Equipe() {
               les unes des autres.
             </p>
           </div>
-          <img src={imgTeam1} alt="work" />
+          <img src={imgDrey} alt="work" />
         </article>
 
         <LineSeparator />
 
         <article className="crapouille">
-          <img src={imgTeam2} alt="work" />
+          <img src={imgFlo} alt="work" />
           <div>
             <h3>Flo</h3>
             <p>
@@ -90,7 +91,7 @@ function Equipe() {
               <b>dôme</b>.
             </p>
           </div>
-          <img src={imgTeam3} alt="work" />
+          <img src={imgNino} alt="work" />
         </article>
 
         <LineSeparator />
@@ -109,10 +110,13 @@ function Equipe() {
               et d’autres <b>crapouilles</b> en tout genre !
             </p>
           </div>
-          <img src={imgTeam4} alt="work" />
-          <img src={imgTeam5} alt="work" />
-          <img src={imgTeam6} alt="work" />
         </article>
+        <div className="gallery">
+          <img src={imgTeam1} alt="Gallery" />
+          <img src={imgTeam2} alt="Gallery" />
+          <img src={imgTeam3} alt="Gallery" />
+          <img src={imgTeam4} alt="Gallery" />
+        </div>
       </div>
     </div>
   )

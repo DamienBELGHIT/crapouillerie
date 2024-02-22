@@ -1,19 +1,19 @@
 import "./index.css"
 import WaterlillyTitle from "../../components/WaterlillyTitle"
 import LineSeparator from "../../components/LineSeparator"
-import imgDescLieu1 from "../../assets/img/pictures/Dog.png"
-import imgDescLieu2 from "../../assets/img/pictures/BuildDoor.jpg"
-import imgDescLieu3 from "../../assets/img/pictures/dome_interieur.jpg"
-import imgDescLieu4 from "../../assets/img/pictures/Tools.jpg"
+import imgDescLieuStart from "../../assets/img/pictures/enfants_butte.jpg"
+import imgDescLieu1 from "../../assets/img/pictures/hangar.jpg"
+import imgDescLieu2 from "../../assets/img/pictures/dome_interieur.jpg"
+import imgDescLieu3 from "../../assets/img/pictures/charpente_enfants.jpeg"
+import imgDescLieu4 from "../../assets/img/pictures/boueux.jpg"
+import imgInfoIcon from "../../assets/img/InfoIcon.png"
 
 function Lieu() {
   return (
     <div id="main-section">
       <WaterlillyTitle title="Le Lieu" />
-      <article id="lieu-2021">
-        <img src={imgDescLieu1} alt="work" />
+      <article id="lieu-start">
         <div>
-          <h3>2021</h3>
           <p>
             La Grande Noé est un joli terrain de <b>2,5 hectares</b> bordé de
             chênes centenaires. Il se situe à <b>Treillières</b> (44119), au
@@ -23,9 +23,35 @@ function Lieu() {
             <br />
             <br />
             Depuis, le lieu a bien <b>évolué</b> et continue de grandir avec,
-            par et pour les crapouilles qui s’y investissent. En 2021, un{" "}
-            <b>hangar</b> est construit pour permettre de stocker le matériel de
-            l’association organisatrice de séjours de vacances{" "}
+            par et pour les crapouilles qui s’y investissent.
+          </p>
+        </div>
+        <img src={imgDescLieuStart} alt="work" />
+      </article>
+      <div className="notif">
+        <img src={imgInfoIcon} alt="info" />
+
+        <p>
+          Il est possible de réserver tout ou partie du lieu pour des activités
+          et événements qui sont en accord avec nos valeurs. En infrastructures
+          nous avons : un dôme géodésique qui est un espace polyvalent de 40m
+          carré, des toilettes sèches, des douches (au printemps/été), un espace
+          bricolage abrité, une cuisine extérieure. Nous avons également du
+          matériel à disposition : grand barnum, tentes, matériel de cuisine
+          collective, tables, bancs, jeux, livres… En terme d’espaces verts,
+          nous avons une petite prairie, un espace à l’ombre de chênes
+          centenaires et un champ arboré avec un espace feu. Pour en discuter,
+          n’hésitez pas à nous contacter.
+        </p>
+      </div>
+      <LineSeparator />
+      <article id="lieu-2021">
+        <img src={imgDescLieu1} alt="work" />
+        <div>
+          <h3>2021</h3>
+          <p>
+            En 2021, un <b>hangar</b> est construit pour permettre de stocker le
+            matériel de l’association organisatrice de séjours de vacances{" "}
             <a href="https://www.labidouillerie.fr/">
               <nobr>La Bidouillerie</nobr>
             </a>
@@ -88,8 +114,8 @@ function Lieu() {
             en terre crue qui est en construction.
             <br />
             <br />
-            Celui est réalisé en plusieurs phases : les premières à l’hiver avec
-            des ami-es maçon-nes tandis que celles d’après se feront au
+            Celui-ci est réalisé en plusieurs phases : les premières à l’hiver
+            avec des ami-es maçon-nes tandis que celles d’après se feront au
             printemps, avec des enfants !
           </p>
         </div>

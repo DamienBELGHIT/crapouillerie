@@ -5,14 +5,13 @@ import imgDescFesticolo2 from "../../assets/img/pictures/Dog.png"
 import imgDescFesticolo3 from "../../assets/img/pictures/Dog.png"
 import imgDescFesticolo4 from "../../assets/img/pictures/Dog.png"
 import imgDescFesticolo5 from "../../assets/img/pictures/Dog.png"
-import imgDescFesticolo6 from "../../assets/img/pictures/Dog.png"
+import { Link } from "react-router-dom"
 
 function Activites() {
   return (
     <div id="main-section">
       <WaterlillyTitle title="Festicolo 12-15 ans" />
       <div className="festicoloSection">
-        <h2>De 12 à 15 ans - De 0 € à 120€</h2>
         <div>
           T’es-tu déjà demandé ce qu’il se passait dans les coulisses d’un
           événement ? De la décoration au montage de la scène en passant par
@@ -27,7 +26,7 @@ function Activites() {
 
         <article>
           <div>
-            <h3>Un séjour pas comme les autres</h3>
+            <h3>Un sejour pas comme les autres</h3>
             <p>
               C’est une première à la Bidouillerie, l’organisation d’un mini
               festival avec des jeunes. Ce ne sera donc pas exactement comme les
@@ -112,20 +111,6 @@ function Activites() {
         </article>
 
         <article>
-          <div>
-            <h3>Le Transport</h3>
-            <p>
-              Un transport est possible depuis Rennes pour 8 enfants maximum
-              avec une priorité pour les enfants ayant un suivi socio-éducatif.
-              Vous pouvez nous contacter directement pour le prix et les
-              modalités de ce transport, organisé en mini-bus. Il sera également
-              possible d’organiser des covoiturages entre des trajets communs.
-            </p>
-          </div>
-          <img src={imgDescFesticolo4} alt="work" />
-        </article>
-
-        <article>
           <img src={imgDescFesticolo5} alt="work" />
           <div>
             <h3>On a hâte</h3>
@@ -144,20 +129,10 @@ function Activites() {
             </p>
           </div>
         </article>
-
-        <article>
-          <div>
-            <h3>Comment s’inscrire ?</h3>
-            <p>
-              L’inscription se fait par mail auprès de l’association la
-              Crapouillerie à associationlacrapouillerie@gmail.com. S’en suivra
-              un rendez-vous téléphonique entre un.e organisateur.ice de
-              l’événement et le ou la jeune motivé.e.
-            </p>
-          </div>
-          <img src={imgDescFesticolo6} alt="work" />
-        </article>
       </div>
+      <Link to="/reservations" className="redirect">
+        Comment s’inscrire ➡
+      </Link>
     </div>
   )
 }

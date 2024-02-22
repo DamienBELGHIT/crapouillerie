@@ -6,6 +6,10 @@
   font-size: 32px;
 }
 
+.reservationSection > div {
+  margin-bottom: 15px;
+}
+
 .reservationSection img {
   margin: 5px;
   aspect-ratio: 1/1;
