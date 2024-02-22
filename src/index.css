@@ -12,8 +12,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 #root {
   width: 100%;
+  min-height: 100vh;
+}
+
+#root > div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @font-face {
@@ -50,7 +59,6 @@ a:hover {
 
 body {
   margin: 0;
-  margin-top: 85px;
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -63,6 +71,7 @@ p {
 
 #main-section {
   margin: 0 5%;
+  margin-top: 100px;
 }
 
 article {
@@ -75,6 +84,7 @@ article h3 {
   text-align: center;
   font-size: 32px;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 article > div {
@@ -82,6 +92,14 @@ article > div {
   flex-direction: column;
   align-items: center;
   padding: 0 5%;
+}
+
+article > div > div {
+  display: flex;
+}
+
+article > div > div > div {
+  padding: 15px;
 }
 
 article img {
@@ -108,5 +126,18 @@ article img {
   100% {
     animation-timing-function: ease;
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1279px) {
+  article img {
+    max-width: 100%;
+  }
+  article {
+    flex-direction: column;
+  }
+
+  article > div > div {
+    flex-direction: column;
   }
 }

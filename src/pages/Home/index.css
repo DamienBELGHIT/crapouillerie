@@ -1,8 +1,13 @@
 .bio {
   display: flex;
+  flex-direction: column;
 }
 
-.bio > img {
+.home-desc {
+  display: flex;
+}
+
+.home-desc > img {
   width: 30%;
   margin-right: 60px;
   animation: appear 1.5s 0s linear alternate;
@@ -30,6 +35,9 @@
   animation: appear 0.8s 0.2s linear alternate;
   animation-fill-mode: forwards;
   width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .gallery img {
@@ -65,4 +73,29 @@
 
 #home-grow img {
   border: #70dda6 10px solid;
+}
+
+@media only screen and (max-width: 767px) {
+  .bio > img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  .home-desc {
+    flex-direction: column;
+    align-items: center;
+  }
+  #home-activities {
+    flex-direction: column-reverse;
+  }
+
+  .redirect {
+    font-size: 30px;
+    color: #53b0e4;
+    margin: 40px 0;
+  }
 }

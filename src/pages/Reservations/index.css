@@ -1,0 +1,32 @@
+.reservationSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+}
+
+.reservationSection img {
+  margin: 5px;
+  aspect-ratio: 1/1;
+  max-height: 300px;
+  object-fit: cover;
+  background: linear-gradient(
+    -45deg,
+    #e52953,
+    #f48f41,
+    #e7ea69,
+    #70dda6,
+    #49b8d4,
+    #cc89d6,
+    #e52953
+  );
+  border-radius: 10px;
+  padding: 6px;
+}
+
+@media only screen and (max-width: 767px) {
+  .reservationSection {
+    font-size: 24px;
+  }
+}

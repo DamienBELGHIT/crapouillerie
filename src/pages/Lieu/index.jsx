@@ -3,7 +3,7 @@ import WaterlillyTitle from "../../components/WaterlillyTitle"
 import LineSeparator from "../../components/LineSeparator"
 import imgDescLieu1 from "../../assets/img/pictures/Dog.png"
 import imgDescLieu2 from "../../assets/img/pictures/BuildDoor.jpg"
-import imgDescLieu3 from "../../assets/img/pictures/Dome2.jpg"
+import imgDescLieu3 from "../../assets/img/pictures/dome_interieur.jpg"
 import imgDescLieu4 from "../../assets/img/pictures/Tools.jpg"
 
 function Lieu() {

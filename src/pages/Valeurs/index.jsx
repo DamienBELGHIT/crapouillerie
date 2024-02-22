@@ -1,11 +1,11 @@
 import "./index.css"
 import WaterlillyTitle from "../../components/WaterlillyTitle"
 import LineSeparator from "../../components/LineSeparator"
-import imgDescAutonomie from "../../assets/img/pictures/CarryWood.png"
-import imgDescEntraide from "../../assets/img/pictures/Hangar2.jpg"
-import imgDescConfiance from "../../assets/img/pictures/Roof.jpg"
-import imgDescEcologie from "../../assets/img/pictures/Night.jpg"
-import imgDescMixite from "../../assets/img/pictures/Dome.jpg"
+import imgDescAutonomie from "../../assets/img/pictures/espace_feu.jpg"
+import imgDescEntraide from "../../assets/img/pictures/plancher_enfants.jpeg"
+import imgDescConfiance from "../../assets/img/pictures/gars_tissu.jpg"
+import imgDescEcologie from "../../assets/img/pictures/tentes_prairie.jpg"
+import imgDescMixite from "../../assets/img/pictures/grande_prairie _manon_brule.jpg"
 
 function Valeurs() {
   return (
@@ -99,9 +99,9 @@ function Valeurs() {
         <LineSeparator />
 
         <article id="valeur-ecologie">
-          <img src={imgDescEcologie} alt="work" />
           <div>
             <h3>4 - Ancrage territorial et ecologie</h3>
+            <img src={imgDescEcologie} alt="work" />
             <p>
               Depuis plusieurs décennies, le système capitaliste et l’évolution
               des modes de vie et de travail ont <b>déconnecté</b> peu à peu les
@@ -142,20 +142,45 @@ function Valeurs() {
           <div>
             <h3>5- L’inclusion et la mixite</h3>
             <p>
-              La Grande Noé est un lieu qui propose des activités{" "}
-              <b>accessibles</b> à tous et toutes,{" "}
-              <b>gratuites ou à prix libre</b> (chantiers écoles, festivals,
-              ateliers…). Pour ce faire, la gestion de l’association,
-              l’organisation des événements et la construction des structures
-              d’accueil repose uniquement sur de l’engagement <b>bénévole</b>.
+              Notre association a pour but de favoriser la{" "}
+              <b>rencontre, le lien social</b> et plus largement de participer à
+              la construction d’une société plus{" "}
+              <b>juste, tolérante et solidaire</b>. Pour ce faire il nous semble
+              important que chacun.e prenne conscience de ses propres{" "}
+              <b>privilèges</b>
+              et de ceux des autres et des <b>discriminations</b> de notre
+              société afin de pouvoir lutter contre les enjeux de pouvoir et les
+              oppressions.
               <br />
               <br />
-              Interculturalité, Mixité sociale, intergénérationalité PMR Lien
-              contre les oppressions (sexistes, spécistes, LGBTQ+ phobes,
-              racistes…)
             </p>
+            <div>
+              <div>
+                <p>
+                  Ce travail de réflexion sur les oppressions est avant tout un
+                  <b> travail collectif</b>. Nous accordons une attention
+                  particulière à n’enfermer personne, enfant comme adulte, dans
+                  une <b>culpabilité</b> et
+                  <b> responsabilité uniquement individuelle</b> mais plutôt à
+                  créer les
+                  <b> espaces d’échange</b> adaptés qui permettront à chacun.e
+                  de grandir, évoluer, s’interroger, dans la{" "}
+                  <b>bienveillance et l’empathie</b>. La Crapouillerie propose
+                  des activités, accessibles financièrement à tous et toutes,{" "}
+                  <b>gratuites ou à prix libre</b> (chantiers écoles, festivals,
+                  ateliers…) et cherche à les faire connaître aux acteur.ice.s
+                  du territoires (maison des jeunes, structures sociales, réseau
+                  paysan…).
+                  <br />
+                  <br />
+                  Pour ce faire, la gestion de l’association, l’organisation des
+                  événements et la construction des structures d’accueil repose
+                  uniquement sur de <b>l’engagement bénévole.</b>
+                </p>
+              </div>
+              <img src={imgDescMixite} alt="work" />
+            </div>
           </div>
-          <img src={imgDescMixite} alt="work" />
         </article>
       </div>
     </div>
