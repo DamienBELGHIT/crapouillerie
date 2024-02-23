@@ -1,3 +1,57 @@
-.redirect {
+article img {
+  border: #49b8d4 10px solid;
+}
+
+#festicolo-bio {
+  flex-direction: column;
+  align-items: center;
+}
+
+#festicolo-bio img {
+  max-height: 400px;
+}
+
+#festicolo-sejour img {
+  border-color: #e52953;
+  width: 30%;
+}
+
+#festicolo-lieu img {
+  border-color: #f48f41;
+  height: 400px;
+  max-width: 30%;
+}
+
+#festicolo-activites img {
+  border-color: #70dda6;
+  height: 400px;
+  max-width: 30%;
+}
+
+#festicolo-hate img {
+  border-color: #cc89d6;
+}
+
+#festicolo-reservation a {
   margin: auto;
+}
+
+@media only screen and (max-width: 1279px) {
+  #festicolo-sejour img {
+    width: 100%;
+  }
+
+  #festicolo-lieu,
+  #festicolo-prix {
+    flex-direction: column-reverse;
+  }
+
+  #festicolo-lieu img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #festicolo-activites img {
+    max-width: 100%;
+  }
 }

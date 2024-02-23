@@ -23,7 +23,7 @@ function Reservations() {
               gmail.com
             </span>
           </b>{" "}
-          ou par téléphone au 06 68 84 69 23
+          ou par téléphone au <b>06 68 84 69 23</b>.
         </div>
         <img src={imgReservation} alt="Logo" />
       </div>
