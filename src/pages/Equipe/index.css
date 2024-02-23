@@ -15,4 +15,11 @@
   );
   border-radius: 10px;
   padding: 6px;
+  border: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .crapouille img {
+    margin: auto;
+  }
 }
