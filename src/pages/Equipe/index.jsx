@@ -4,9 +4,8 @@ import imgDrey from "../../assets/img/pictures/dreo_hangar.jpg"
 import imgFlo from "../../assets/img/pictures/Flo.jpg"
 import imgNino from "../../assets/img/pictures/chantier_tole_nino.jpg"
 import imgTeam1 from "../../assets/img/pictures/shovel_fight.jpg"
-import imgTeam2 from "../../assets/img/pictures/grande_prairie_marie_sourit.jpg"
+import imgTeam2 from "../../assets/img/pictures/chantier_brouette.jpg"
 import imgTeam3 from "../../assets/img/pictures/couverture_cuisine.jpeg"
-import imgTeam4 from "../../assets/img/pictures/chantier_brouette.jpg"
 import LineSeparator from "../../components/LineSeparator"
 
 function Equipe() {
@@ -115,7 +114,6 @@ function Equipe() {
           <img src={imgTeam1} alt="Gallery" />
           <img src={imgTeam2} alt="Gallery" />
           <img src={imgTeam3} alt="Gallery" />
-          <img src={imgTeam4} alt="Gallery" />
         </div>
       </div>
     </div>
