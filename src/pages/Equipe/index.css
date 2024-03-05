@@ -1,6 +1,6 @@
 .crapouille img {
   aspect-ratio: 1/1;
-  max-width: 30%;
+  max-width: 300px;
   max-height: 300px;
   object-fit: cover;
   background: linear-gradient(
@@ -18,8 +18,17 @@
   border: 0px;
 }
 
+@media only screen and (max-width: 1279px) {
+  .crapouille {
+    flex-direction: row;
+  }
+}
 @media only screen and (max-width: 767px) {
   .crapouille img {
     margin: auto;
+  }
+  .crapouille {
+    flex-direction: column;
+    align-items: center;
   }
 }

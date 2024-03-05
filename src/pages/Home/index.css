@@ -8,7 +8,7 @@
 }
 
 .home-desc > img {
-  width: 30%;
+  width: 320px;
   margin-right: 60px;
   animation: appear 1.5s 0s linear alternate;
   animation-fill-mode: forwards;
@@ -75,6 +75,11 @@
   border: #70dda6 10px solid;
 }
 
+@media only screen and (max-width: 1279px) {
+  .home-desc > img {
+    width: 240px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .bio > img {
     width: 80%;
