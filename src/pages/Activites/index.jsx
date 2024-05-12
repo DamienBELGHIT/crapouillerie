@@ -5,7 +5,7 @@ import imgDescFesticolo2 from "../../assets/img/pictures/grande_prairie_marie_so
 import imgDescFesticolo3 from "../../assets/img/pictures/youn_cabane.jpg"
 import imgDescFesticolo4 from "../../assets/img/pictures/tableau_libre_choix.jpg"
 import imgDescFesticolo5 from "../../assets/img/pictures/enfants_butte.jpg"
-import imgAffiche from "../../assets/img/pictures/afficheGrandeMalice.jpg"
+import imgAffiche from "../../assets/img/pictures/afficheGrandeMalice.png"
 import { Link } from "react-router-dom"
 import LineSeparator from "../../components/LineSeparator"
 
