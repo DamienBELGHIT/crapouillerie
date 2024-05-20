@@ -3,7 +3,6 @@ import WaterlillyTitle from "../../components/WaterlillyTitle"
 import imgDescFesticolo1 from "../../assets/img/pictures/charpente_enfants.jpeg"
 import imgDescFesticolo2 from "../../assets/img/pictures/grande_prairie_marie_sourit.jpg"
 import imgAffiche from "../../assets/img/pictures/afficheGrandeMalice.png"
-import { Link } from "react-router-dom"
 import LineSeparator from "../../components/LineSeparator"
 
 function LaGrandeMalice() {
@@ -53,17 +52,15 @@ function LaGrandeMalice() {
               </a>
               <br />
               <br />
-              <b>16H30 - 17H30 = Agathe et Zohra - Cie La chèvre et l’oiseau</b>
-              <br />
-              Spectacle de théâtre tout public Librement inspiré du film Azur et
-              Asmar de Michel Ocelot. <br />{" "}
-              <a href="https://www.youtube.com/watch?v=IQbLGLKV2YU">
-                Découvrir le teaser du spectacle ICI !
-              </a>
+              <b>16H30 - 17H30 = Spectacle en cours de programmation</b>
               <br />
               <br />
-              <b>18H30 - 19H30 = Concert - en cours de programmation</b>
+              <b>18H30 - 19H30 = Concert - Le groupe Dragon</b>
               <br />
+              Dragon, c’est un groupe de jeunes ados de Vigneux-de-Bretagne
+              passionnés par le rock ! Il est composé de: Evan au chant, au
+              synthé et à la guitare, Clément à la batterie et au choeur, puis
+              Amandine à la basse et au chœur
               <br />
               <b>20H30 - 21H30 = Radio Tue-tête</b>
               <br />
@@ -149,12 +146,6 @@ function LaGrandeMalice() {
               avec un stand pour faire les échanges.
             </p>
           </div>
-        </article>
-        <LineSeparator />
-        <article id="festicolo-reservation">
-          <Link to="/reservations" className="redirect">
-            Comment s’inscrire ➡
-          </Link>
         </article>
       </div>
     </div>
