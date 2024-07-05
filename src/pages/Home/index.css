@@ -22,6 +22,20 @@
   align-items: center;
 }
 
+.affiche img {
+  max-height: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  border: #49b8d4 4px solid;
+}
+
+.affiche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .redirect {
   font-size: 40px;
   color: #53b0e4;

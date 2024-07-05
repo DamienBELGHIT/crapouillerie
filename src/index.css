@@ -108,6 +108,24 @@ article img {
   border-radius: 10px;
 }
 
+.notif {
+  border: #e52953 5px solid;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.notif-home {
+  max-width: 850px;
+  justify-content: center;
+  margin: auto;
+}
+
+.notif img {
+  max-height: 80px;
+  margin: 30px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

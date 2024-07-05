@@ -1,7 +1,7 @@
 import "./index.css"
 import WaterlillyTitle from "../../components/WaterlillyTitle"
-import imgDescFesticolo1 from "../../assets/img/pictures/charpente_enfants.jpeg"
-import imgDescFesticolo2 from "../../assets/img/pictures/grande_prairie_marie_sourit.jpg"
+import imgDescFesticolo1 from "../../assets/img/pictures/LaHoupette2.webp"
+import imgDescFesticolo2 from "../../assets/img/pictures/LaHoupette.jpg"
 import imgAffiche from "../../assets/img/pictures/afficheGrandeMalice.png"
 import LineSeparator from "../../components/LineSeparator"
 
@@ -52,7 +52,23 @@ function LaGrandeMalice() {
               </a>
               <br />
               <br />
-              <b>16H30 - 17H30 = Spectacle en cours de programmation</b>
+              <b>
+                16H30 - 17H30 = Voyage au pays des grands d’Emilie Muller par la
+                cie vent de passage
+              </b>
+              <br />
+              Chichi revient d’un grand voyage. Dans sa valise à malice, elle a
+              récolté plein d’histoires de toutes les couleurs qu’elle a
+              rencontré dans le monde des grands. Elle ouvre sa valise devant la
+              petite Rosalie. Elle voit s’envoler alors une petite chauve-souris
+              qui a dû quitter son lit, le royaume du Rois Rubis, une petite
+              taupe cachée dans un petit coin, et enfin, un feu d’artifice
+              d’étoiles ! Chichi et Rosalie vont vous raconter quatre histoires
+              incroyables que l’on rencontre tous les jours. dès 3 ans
+              <br />{" "}
+              <a href="https://www.youtube.com/watch?v=-0KcRhwpnVc&t=18s">
+                Découvrir le teaser du spectacle ICI !
+              </a>
               <br />
               <br />
               <b>18H30 - 19H30 = Concert - Le groupe Dragon</b>
@@ -61,6 +77,7 @@ function LaGrandeMalice() {
               passionnés par le rock ! Il est composé de: Evan au chant, au
               synthé et à la guitare, Clément à la batterie et au choeur, puis
               Amandine à la basse et au chœur
+              <br />
               <br />
               <b>20H30 - 21H30 = Radio Tue-tête</b>
               <br />
@@ -100,12 +117,14 @@ function LaGrandeMalice() {
               </ul>
             </p>
           </div>
-          <img src={imgDescFesticolo1} alt="work" />
+          <div>
+            <img src={imgDescFesticolo1} alt="work" />
+            <img src={imgDescFesticolo2} alt="work" />
+          </div>
         </article>
         <LineSeparator />
 
         <article id="festicolo-lieu">
-          <img src={imgDescFesticolo2} alt="work" />
           <div>
             <h3>Informations pratiques</h3>
             <p>

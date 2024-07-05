@@ -15,9 +15,19 @@ article img {
   max-height: 400px;
 }
 
+#festicolo-sejour div {
+  justify-content: space-evenly;
+}
+
 #festicolo-sejour img {
   border-color: #e52953;
   width: 446px;
+  max-width: 446px;
+  margin: 5px;
+}
+
+#festicolo-sejour div {
+  padding: 5px;
 }
 
 #festicolo-lieu img {

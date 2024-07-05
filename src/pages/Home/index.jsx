@@ -9,6 +9,8 @@ import imgDescStart from "../../assets/img/pictures/espace_ombragee.jpg"
 import imgDescActivites from "../../assets/img/pictures/espace_feu.jpg"
 import imgDescValeurs from "../../assets/img/pictures/grande_prairie _manon_brule.jpg"
 import LineSeparator from "../../components/LineSeparator"
+import imgInfoIcon from "../../assets/img/InfoIcon.png"
+import imgAffiche from "../../assets/img/pictures/afficheGrandeMalice.png"
 
 function Home() {
   return (
@@ -28,11 +30,31 @@ function Home() {
                 et autres événements en accord avec nos valeurs, à{" "}
                 <b>la Grande Noé</b>, Treillières 44119.
               </p>
-              <Link to="/activites" className="redirect">
-                Voir nos activités ➡
-              </Link>
             </div>
           </div>
+          <div className="notif notif-home">
+            <img src={imgInfoIcon} alt="info" />
+
+            <p>
+              <b>
+                Informations de dernières minutes sur{" "}
+                <a href="https://www.facebook.com/events/la-grande-no%C3%A9-treilli%C3%A8res/festival-la-grande-malice/1158205688643082/">
+                  Facebook
+                </a>{" "}
+                et{" "}
+                <a href="https://www.instagram.com/lacrapouillerie?igsh=dWFsc2xvcDhxb29u">
+                  Instagram
+                </a>{" "}
+                !
+              </b>
+            </p>
+          </div>
+          <Link to="/activites" className="redirect">
+            <div className="affiche">
+              <img src={imgAffiche} />
+              <span>La Grande Malice ➡</span>
+            </div>
+          </Link>
           <div className="gallery">
             <img src={imgHome1} alt="Gallery" />
             <img src={imgHome2} alt="Gallery" />
