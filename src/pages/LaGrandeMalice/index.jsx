@@ -2,7 +2,7 @@ import "./index.css"
 import WaterlillyTitle from "../../components/WaterlillyTitle"
 import imgDescFesticolo1 from "../../assets/img/pictures/LaHoupette2.webp"
 import imgDescFesticolo2 from "../../assets/img/pictures/LaHoupette.jpg"
-import imgAffiche from "../../assets/img/pictures/afficheGrandeMalice.png"
+import imgAffiche from "../../assets/img/pictures/affiche_craps.png"
 import LineSeparator from "../../components/LineSeparator"
 
 function LaGrandeMalice() {
@@ -38,22 +38,7 @@ function LaGrandeMalice() {
               <br />
               <h4>-Spectacles et concerts-</h4>
               <b>
-                14h30 - 15h30 = Talya- Cie La Houpette Spectacle de théâtre tout
-                public
-              </b>{" "}
-              <br />
-              &quot;Je m’appelle Talya et je fais la promesse de devenir, le
-              temps qu’il faudra, la remplaçante des nuages magiques.&quot; Huis
-              clos à deux personnages, entre science fiction et conte pour
-              enfant.
-              <br />{" "}
-              <a href="https://www.youtube.com/watch?v=iHlb0w6sOwo&list=PLwEh6Id1ZoXdi9749ibTQMr4TXahv82fj">
-                Découvrir le teaser du spectacle ICI !
-              </a>
-              <br />
-              <br />
-              <b>
-                16H30 - 17H30 = Voyage au pays des grands d’Emilie Muller par la
+                14h30 à 15h30 = Voyage au pays des grands d’Emilie Muller par la
                 cie vent de passage
               </b>
               <br />
@@ -67,6 +52,21 @@ function LaGrandeMalice() {
               incroyables que l’on rencontre tous les jours. dès 3 ans
               <br />{" "}
               <a href="https://www.youtube.com/watch?v=-0KcRhwpnVc&t=18s">
+                Découvrir le teaser du spectacle ICI !
+              </a>
+              <br />
+              <br />
+              <b>
+                16h30 à 17h30 = Talya- Cie La Houpette Spectacle de théâtre tout
+                public
+              </b>{" "}
+              <br />
+              &quot;Je m’appelle Talya et je fais la promesse de devenir, le
+              temps qu’il faudra, la remplaçante des nuages magiques.&quot; Huis
+              clos à deux personnages, entre science fiction et conte pour
+              enfant.
+              <br />{" "}
+              <a href="https://www.youtube.com/watch?v=iHlb0w6sOwo&list=PLwEh6Id1ZoXdi9749ibTQMr4TXahv82fj">
                 Découvrir le teaser du spectacle ICI !
               </a>
               <br />
